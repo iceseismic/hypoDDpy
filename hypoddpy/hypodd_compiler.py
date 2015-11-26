@@ -22,8 +22,10 @@ import tarfile
 
 
 # Specify the HypoDD version to be compiled.
+#HYPODD_ARCHIVE = os.path.abspath(os.path.join(os.path.dirname(__file__), 'src',
+#    'HYPODD_2.1b.tar.gz'))
 HYPODD_ARCHIVE = os.path.abspath(os.path.join(os.path.dirname(__file__), 'src',
-    'HYPODD_2.1b.tar.gz'))
+    'HYPODD_2.1b_scb.tar.gz'))
 HYPODD_MD5_HASH = "ac7fb5829abef23aa91f1f8a115e2b45"
 
 
